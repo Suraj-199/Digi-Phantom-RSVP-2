@@ -17,12 +17,12 @@ body{
 }
 .content{
   height: auto;
-max-width: 450px;
+  max-width: 450px;
   padding: 40px 30px;
   background: #dde1e7;
   border-radius: 10px;
-  box-shadow: -3px -3px 7px #ffffff73,
-               2px 2px 5px rgba(94,104,121,0.288);
+  box-shadow:  50px 50px 59px #8f8787,
+               -50px -50px 59px #ffffff;
 }
 .content .text{
   font-size: 33px;
@@ -41,6 +41,7 @@ max-width: 450px;
 }
 .field:nth-child(2){
   margin-top: 20px;
+  
 }
 .field:nth-child(3){
   margin-top: 20px;
@@ -188,15 +189,5 @@ button:focus {
 @media only screen and (max-width: 480px) {
   body {
   font-size: 20px;
-  }aut
-
-  .content{
-    height: auto;
-    max-width:auto ;
-    padding: 40px 30px;
-    background: #dde1e7;
-    border-radius: 10px;
-    box-shadow: -3px -3px 7px #ffffff73,
-                 2px 2px 5px rgba(94,104,121,0.288);
   }
   }
